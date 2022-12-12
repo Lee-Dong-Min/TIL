@@ -18,3 +18,4 @@ $ git status # 파일 stage여부 확인
 $ git log 내역 확인
 $ git config --global user.name "name" 사용자 이름 지정
 $ git config --global user.email "id@email.com" 사용자 이메일 지정
+```
