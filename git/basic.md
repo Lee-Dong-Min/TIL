@@ -10,12 +10,14 @@
 ```
 $ git init # 현 directory에 .git 생성 (master)
 $ git add (filename) # 해당 파일을 stage에 마운트
-$ git commit -m (현재 directory에 stage된 파일을 github에 등재)
+$ git commit -m # 현재 directory에 stage된 파일을 commit
+$ git push <nickname> <branch> commit된 파일을 github에 업로드
 ```
 ## 그 외
 ```
 $ git status # 파일 stage여부 확인
 $ git log 내역 확인
-$ git config --global user.name "name" 사용자 이름 지정
-$ git config --global user.email "id@email.com" 사용자 이메일 지정
+$ git config --global user.name "name" # 사용자 이름 지정
+$ git config --global user.email "id@email.com" # 사용자 이메일 지정
+$ git remote add <nickname> <URL> # github에 remote생성
 ```
